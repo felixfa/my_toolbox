@@ -8,4 +8,4 @@ def test_search_city_for_paris():
 def test_weather_forecast():
     forecast = weather_forecast(44418)
     assert type(forecast) == list
-    assert forecast[0]['appicable_date'] == datetime.date.today().strftime('%Y-%m-%d')
+    assert forecast[0]['applicable_date'] == datetime.date.today().strftime('%Y-%m-%d')
