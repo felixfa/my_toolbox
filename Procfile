@@ -1,1 +1,1 @@
-web: pip install . -U && my_toolbox-run
+web: pip install . -U && weather-run
