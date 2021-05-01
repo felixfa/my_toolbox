@@ -40,10 +40,10 @@ def weather_forecast(woeid):
     return weather5days
 
 
-def weather():
+def weather(city_name):
 
-    query = input("City?\n> ")
-    city = search_city(query)
+    #query = input("City?\n> ")
+    city = search_city(city_name)
     weather_next5days=weather_forecast(city['woeid'])
 
     for i in range(5):

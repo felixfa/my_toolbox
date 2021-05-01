@@ -3,4 +3,4 @@
 
 from my_toolbox.weather import weather
 
-weather()
+weather('Stuttgart')
