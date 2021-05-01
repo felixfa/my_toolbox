@@ -72,4 +72,4 @@ jobs:
       with:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: "toolboxfelixfa" # Must be unique in Heroku
-        heroku_email: ${{secrets.felix@faehnrich.de}}
+        heroku_email: ${{secrets.HEROKU_EMAIL}}
