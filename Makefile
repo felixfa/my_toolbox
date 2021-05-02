@@ -1,3 +1,4 @@
+HEROKU_EMAIL_ADDRESS = felix@faehnrich.de
 # ----------------------------------
 #          INSTALL & TEST
 # ----------------------------------

@@ -1,1 +1,1 @@
-web: pip install . -U && weather-run
+web: pip install . -U && bbquote-run

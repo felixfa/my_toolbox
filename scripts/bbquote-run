@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from my_toolbox.bbquote import get_quote
+
+print(get_quote())
