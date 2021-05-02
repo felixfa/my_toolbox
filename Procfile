@@ -1,1 +1,1 @@
-web: pip install . -U && bbquote-run
+web: pip install . -U && streamlit run app.py
