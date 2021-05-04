@@ -64,6 +64,8 @@ jobs:
 
   deploy_heroku:
 
+    needs: build
+
     runs-on: ubuntu-latest
 
     steps:
